@@ -1,0 +1,14 @@
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+body {
+    background-color: #003399; /* EU */
+}
+
+#content {
+    /* better than white and lightyellow */
+    background-color: #f7f7f0;
+}
+
+ul {
+    list-style-type: none;
+}

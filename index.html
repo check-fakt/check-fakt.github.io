@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- SPDX-License-Identifier: AGPL-3.0-or-later -->
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>check_fakt 🔍</title>
+</head>
+<body>
+<main role="main" class="container" id="content">
+    <h1>check_fakt<br><!--
+        --><small class="text-muted">Suchmachine für Faktenchecks</small></h1>
+    <div class="alert alert-danger" role="alert" id="alert-nojs">
+        <h2>Diese Seite benötigt JavaScript.</h2>
+        <p>Bitte passen Sie Ihre Browser-Einstellungen an und laden Sie diese Seite neu!</p>
+    </div>
+    <p>Durchsuchen Sie mit Hilfe dieser Seite bequem alle unten aufgeführten <!--
+        --><a href="#sites">Nachrichten-Angebote</a> gleichzeitig via <!--
+        --><a target="_blank" href="https://duckduckgo.com">DuckDuckGo</a>:
+    </p>
+    <ol>
+        <li><label for="query">Suchbegriff eingeben:</label><br><!--
+            --><input id="query" type="text"></li>
+        <li>Bei Bedarf einzelne <a href="#sites">Nachrichten-Angebote</a> nach eigenem Ermessen abwählen</li>
+        <li><a id="search" href="#">Suchen</a></li>
+    </ol>
+    <h2>Dieses Projekt ist nicht in Stein gemeißelt.</h2>
+    <p>Sie können <a target="_blank" href="https://github.com/check-fakt/check-fakt.github.io/issues">hier</a><!--
+        --> Änderungen vorschlagen!</p>
+    <h2 id="sites">Nachrichten-Angebote<br><!--
+        --><small class="text-muted">in die Suche einbeziehen</small></h2>
+    <ul>
+        <li><input type="checkbox" checked data-site="faktencheck.afp.com">&emsp;<!--
+            --><a target="_blank" href="https://faktencheck.afp.com">AFP Faktencheck</a></li>
+        <li><input type="checkbox" checked data-site="www.tagesschau.de/faktenfinder/">&emsp;<!--
+            --><a target="_blank" href="https://www.tagesschau.de/faktenfinder">ARD-Faktenfinder</a></li>
+        <li><input type="checkbox" checked data-site="correctiv.org/faktencheck/">&emsp;<!--
+            --><a target="_blank" href="https://correctiv.org/faktencheck/">CORRECTIV.Faktencheck</a></li>
+    </ul>
+</main>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
