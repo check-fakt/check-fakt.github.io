@@ -7,6 +7,8 @@ body {
 #content {
     /* better than white and lightyellow */
     background-color: #f7f7f0;
+
+    padding: 0.5em;
 }
 
 ul {
